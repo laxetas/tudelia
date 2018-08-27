@@ -121,13 +121,11 @@ hr {
 	padding-bottom: 50px;
 }
 /* Home Style */
-header {
-	background: url(../img/header-bg.jpg) no-repeat bottom center;
-	background-size: cover;
-	color: #cfcfcf;
-	position: relative;
-	height: 100%;
+.responsive {
+    max-width: 100%;
+    height: auto;
 }
+
 header p {
 	color: rgba(255,255,255,0.5);
 	font-size: 18px;
