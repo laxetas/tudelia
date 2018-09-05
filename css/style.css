@@ -1,5 +1,9 @@
 body, html {
 	font-family: 'Open Sans', sans-serif;
+	@font-face {
+    	font-family: Apple;
+	src: url(Bapple.ttf);
+	}
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #333;
@@ -83,7 +87,8 @@ hr {
 	border-color: rgba(231, 231, 231, 0);
 }
 #menu a.navbar-brand {
-	font-size: 22px;
+	font-family: Apple;
+	font-size: 25px;
 	color: #ddd;
 	font-weight: 700;
 }
