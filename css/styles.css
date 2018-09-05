@@ -9,7 +9,7 @@ Author URI: http://webthemez.com/
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 }
-body {
+/*body {
 	height: 100%;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
@@ -22,7 +22,7 @@ body {
 	-webkit-transition: all 0.3s linear;
 	-moz-transition: all 0.3s linear;
 	-o-transition: all 0.3s linear;
-}
+}*/
 ::selection {
 	color: #fff;
 	background: #A43E89;
