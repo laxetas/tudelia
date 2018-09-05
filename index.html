@@ -292,11 +292,11 @@
 <script src="js/custom.js" type="text/javascript"></script> 
 <script src="js/owl-carousel/owl.carousel.js"></script>
 <script >
- $(".navbar-nav").on( "click", function( event ) {        
-    	if($('.navbar-nav').is(':visible')) {    
-            $(".navbar-nav").trigger('click');
-        }
-});
+  $(document).ready(function () {
+        $(".navbar-nav li.trigger-collapse a").click(function(event) {
+          $(".navbar-collapse").collapse('hide');
+        });
+      });
 </script>
 
 <!-- Javascripts
