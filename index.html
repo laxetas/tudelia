@@ -61,13 +61,13 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home" class="page-scroll">Home</a></li>
-        <li><a href="#about-section" class="page-scroll">About</a></li>
-        <li><a href="#services-section" class="page-scroll">Services</a></li>
-        <li><a href="#works-section" class="page-scroll">Portfolio</a></li>
-        <li><a href="#eventos" class="page-scroll">Eventos</a></li>
-        <li><a href="#team-section" class="page-scroll">Team</a></li>
-        <li><a href="#contact-section" class="page-scroll">Contact</a></li>
+        <li><a href="#home" class="page-scroll" data-toggle="collapse" data-target=".navbar-collapse.show">Home</a></li>
+        <li><a href="#about-section" class="page-scroll" data-toggle="collapse" data-target=".navbar-collapse.show">About</a></li>
+        <li><a href="#services-section" class="page-scroll" data-toggle="collapse" data-target=".navbar-collapse.show">Services</a></li>
+        <li><a href="#works-section" class="page-scroll" data-toggle="collapse" data-target=".navbar-collapse.show">Portfolio</a></li>
+        <li><a href="#eventos" class="page-scroll" data-toggle="collapse" data-target=".navbar-collapse.show">Eventos</a></li>
+        <li><a href="#team-section" class="page-scroll" data-toggle="collapse" data-target=".navbar-collapse.show">Team</a></li>
+        <li><a href="#contact-section" class="page-scroll" data-toggle="collapse" data-target=".navbar-collapse.show">Contact</a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
@@ -292,8 +292,9 @@
 <script src="js/custom.js" type="text/javascript"></script> 
 <script src="js/owl-carousel/owl.carousel.js"></script>
 <script >
-  $(document).ready(function () {
-        $(".page-scroll").click(function(event) {
+  $(document).ready(
+      function () {
+           $(".page-scroll").click(function(event) {
           $(".navbar-toggle").collapse('hide');
         });
       });
