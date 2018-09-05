@@ -731,7 +731,7 @@ img, video, iframe, embed, object {
 #eventos {
 	background-image: url("img/header-bg.jpg");
 	background-size: cover;
-        background-repeat: no-repeat;
+        //background-repeat: no-repeat;
 	//background: #A43E89;
 	color: #fff;
 }
