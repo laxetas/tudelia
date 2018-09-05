@@ -292,12 +292,10 @@
 <script src="js/custom.js" type="text/javascript"></script> 
 <script src="js/owl-carousel/owl.carousel.js"></script>
 <script >
- $(document).on('click','.navbar-collapse.in',function(e) {
-
-    if( $(e.target).is('a') && ( $(e.target).attr('class') != 'dropdown-toggle' ) ) {
-        $(this).collapse('hide');
-    }
-
+ $(".navbar-nav").on( "click", function( event ) {        
+    	if($('.navbar-toggler').is(':visible')) {    
+            $(".navbar-toggler").trigger('click');
+        }
 });
 </script>
 
