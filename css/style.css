@@ -135,10 +135,10 @@ header p {
 }
 .intro-text {
 	position: relative;
-	padding-top: 100px;
+	padding-top: 60px;
 	padding-right: 0;
 	padding-left: 0;
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 	
 }
 .intro-text H1 {
