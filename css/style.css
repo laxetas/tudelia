@@ -84,7 +84,7 @@ hr {
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: rgba(248, 248, 248, 1);
+	background-color: rgba(34, 34, 34, 0.5);
 	border-color: rgba(231, 231, 231, 0);
 }
 #menu a.navbar-brand {
@@ -94,7 +94,7 @@ hr {
 	font-weight: 700;
 }
 #menu a.navbar-brand i.fa {
-	color: #88bb45;
+	color: #A43E89;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
@@ -103,7 +103,7 @@ hr {
 	letter-spacing: 1px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #71bd46;
+	color: #A43E89;
 }
 .on {
 	background-color: #222222 !important;
