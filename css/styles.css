@@ -658,12 +658,6 @@ img, video, iframe, embed, object {
 }
 /* Team
     ---------------------------------------------------*/
-#equipo {
-	background: #fff;
-	padding-top: 35px;
-	padding-bottom: 25px;
-	overflow: hidden;
-}
 .team-member {
 	margin-bottom: 15px;
 }
@@ -1266,6 +1260,13 @@ nav#filter li {
 	background: #fff;
 }
 /*Price table*/
+#planes {
+	background: #fff;
+	padding-top: 35px;
+	padding-bottom: 25px;
+	overflow: hidden;
+}
+
 .flat .plan {
 	border-radius: 0px;
 	list-style: none;
