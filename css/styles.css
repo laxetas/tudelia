@@ -727,7 +727,9 @@ img, video, iframe, embed, object {
 }
 /* --Portfolio----- */
 #eventos {
-	background: #A43E89;
+	background-image: url("img/header-bg.jpg") no-repeat;
+	background-size: cover;
+	!background: #A43E89;
 	color: #fff;
 }
 #eventos h2 {
