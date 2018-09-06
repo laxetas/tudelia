@@ -173,10 +173,11 @@ header p {
 }
 /* About Section */
 #about-section {
-	padding: 100px 0;
-	/*background-color: #f6f6f6;*/
 	background-image: url("img/bg1.jpg") no-repeat;
 	background-size: cover;
+	padding: 100px 0;
+	/*background-color: #f6f6f6;*/
+	
 }
 #about-section h4 {
 	border-bottom: 1px solid #b8dea2;
