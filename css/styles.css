@@ -409,6 +409,8 @@ color:#F89F9F;
 	padding: 25px 18px;
 }
 .page-section {
+	background-image: url("../img/header-bg.jpg");
+	background-size: cover;
 	width: 100%;
 	height: auto;
 	padding: 35px 0;
