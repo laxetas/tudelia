@@ -581,7 +581,9 @@ img, video, iframe, embed, object {
 /* Features
     -------------------------------------------------*/
 #aboutUs {
-	background: #fff;
+	!background: #fff;
+	background-image: url("img/bg1.jpg") no-repeat;
+	background-size: cover;
 	padding-top: 35px;
 	padding-bottom: 25px;
 	overflow: hidden;
