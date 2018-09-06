@@ -16,6 +16,7 @@ function main() {
             $('html,body').animate({
               scrollTop: target.offset().top - 40
             }, 900);
+	    document.getElementsByClassName('page-scroll').style.visibility='hidden'
             return false;
           }
         }
