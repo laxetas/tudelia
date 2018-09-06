@@ -84,7 +84,7 @@ hr {
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: rgba(173, 196, 238, 0.5);
+	background-color: rgba(0,189, 132, 0.5);
 	border-color: rgba(231, 231, 231, 0);
 }
 #menu a.navbar-brand {
