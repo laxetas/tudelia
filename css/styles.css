@@ -409,6 +409,8 @@ color:#F89F9F;
 	padding: 25px 18px;
 }
 .page-section {
+	background-image: url("../img/header-bg.jpg");
+	background-size: cover;
 	width: 100%;
 	height: auto;
 	padding: 35px 0;
@@ -504,9 +506,7 @@ a.arrow-link:hover {
 	color: #fff;
 }
 .colord {
-	background-image: url("../img/header-bg.jpg");
-	background-size: cover;
-	!background:#A43E89;
+	background:#A43E89;
 }
 .colord p {
 	color:#FFE4F8;
