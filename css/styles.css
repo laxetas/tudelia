@@ -2,14 +2,14 @@
 Author URI: http://webthemez.com/
 */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
-@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+//@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+//@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 * {
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 }
-body {
+/*body {
 	height: 100%;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
@@ -22,7 +22,7 @@ body {
 	-webkit-transition: all 0.3s linear;
 	-moz-transition: all 0.3s linear;
 	-o-transition: all 0.3s linear;
-}
+}*/
 ::selection {
 	color: #fff;
 	background: #A43E89;
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #6D6D6D;
 }
 h6{
-	font-size:14px;
+	font-size:25px;
 }
 .dataTxt ul li{
 	list-style:none;
@@ -127,6 +127,9 @@ overflow:hidden;
 	
 	 color:#F443C5 !important;
  }
+ 
+ 
+ 
 .btn{
 display: inline-block;
 padding: 8px 12px;
@@ -218,6 +221,10 @@ color:#F89F9F;
 	}
 /* Header 
 ----------------------------------------------*/
+.responsive {
+    width: 100%;
+    height: auto;
+}
 #section-top {
 	background: #4E4E4E;
 }
@@ -436,9 +443,9 @@ color:#F89F9F;
 	position: relative;
 	padding: 0px;
 	box-shadow: 0px 0px 1px rgba(0,0,0,0.4);
-	/*background: url("../images/banner-bg.jpg") no-repeat;*/
+	background: url("img/header-bg.jpg") no-repeat;
 	background-size: 100% 5%;
-	background-size: cover;
+	background-size: cover;*/
 	position: relative;
 	border-bottom: 2px #A43E89 solid;
 }
@@ -581,9 +588,7 @@ img, video, iframe, embed, object {
 /* Features
     -------------------------------------------------*/
 #aboutUs {
-	!background: #fff;
-	background-image: url("img/bg1.jpg") no-repeat;
-	background-size: cover;
+	background: #fff;
 	padding-top: 35px;
 	padding-bottom: 25px;
 	overflow: hidden;
@@ -727,9 +732,10 @@ img, video, iframe, embed, object {
 }
 /* --Portfolio----- */
 #eventos {
-	background-image: url("img/header-bg.jpg") no-repeat;
+	background-image: url("../img/header-bg.jpg");
 	background-size: cover;
-	!background: #A43E89;
+        background-repeat: no-repeat;
+	//background: #A43E89;
 	color: #fff;
 }
 #eventos h2 {
@@ -1036,6 +1042,8 @@ padding:35px 0;
 .header .navbar-nav > li > a {
 	padding: 25px 12px;
 }
+
+
 .portfolio-item img {
 	text-decoration: none;
 	display: block;
