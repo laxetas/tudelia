@@ -235,7 +235,7 @@ img.team-img {
 	display: block;
 }
 
-/* Infinite slider */
+/* Infinite slider 
 
 .photobanner {
  height: 233px;
@@ -264,7 +264,8 @@ img.team-img {
  box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 }
 
-/*keyframe animations*/
+
+/*keyframe animations 
 .first {
  -webkit-animation: bannermove 10s linear infinite;
     -moz-animation: bannermove 10s linear infinite;
@@ -273,10 +274,58 @@ img.team-img {
          animation: bannermove 10s linear infinite;
 }
  
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
 
 
-
-
+*/
 
 /* Gallery Section 
  * ==============================*/
