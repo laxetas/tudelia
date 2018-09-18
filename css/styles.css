@@ -1,6 +1,4 @@
-/*
-Author URI: http://webthemez.com/
-*/
+
 
 //@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
 //@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
@@ -928,6 +926,102 @@ footer {
 .contact ul li i {
 	margin-right: 15px;
 }
+
+/* Infinite slider */
+
+.photobanner {
+ height: 233px;
+ width: 3550px;
+ margin-bottom: 80px;
+}
+ 
+.photobanner img {
+ -webkit-transition: all 0.25s ease;
+ -moz-transition: all 0.25s ease;
+ -o-transition: all 0.25s ease;
+ -ms-transition: all 0.25s ease;
+ transition: all 0.25s ease;
+}
+ 
+.photobanner img:hover {
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ -ms-transform: scale(1.1);
+ transform: scale(1.1);
+ cursor: pointer;
+ 
+ -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+ -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+ box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
+
+/*keyframe animations */
+.first {
+ -webkit-animation: bannermove 10s linear infinite;
+    -moz-animation: bannermove 10s linear infinite;
+     -ms-animation: bannermove 10s linear infinite;
+      -o-animation: bannermove 10s linear infinite;
+         animation: bannermove 10s linear infinite;
+}
+ 
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+
+
+
+
+
+
+
 /*Clients*/
 .clients #owl-demo .item {
 	background: none;
