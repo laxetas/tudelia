@@ -37,6 +37,11 @@ h5 {
 	font-weight: 700;
 	line-height: 20px;
 }
+h6 {
+	font-size: 16px;
+	font-weight: 600;
+	color: #931071;
+}
 p {
 	font-family: 'Open Sans', sans-serif;
 	color: #888;
