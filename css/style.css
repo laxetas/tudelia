@@ -1,5 +1,4 @@
-//@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
-//@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+
 @font-face {
     	font-family: Apple;
 	src: url(../fonts/Bapple.ttf);
@@ -39,11 +38,7 @@ h5 {
 	font-weight: 700;
 	line-height: 20px;
 }
-h6 {
-	font-size: 16px;
-	font-weight: 600;
-	color: #931071;
-}
+
 p {
 	font-family: 'Open Sans', sans-serif;
 	color: #888;
