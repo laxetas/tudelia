@@ -109,7 +109,7 @@ if (typeof Object.create !== "function") {
                 base.transitionTypes(base.options.transitionStyle);
             }
             if (base.options.autoPlay === true) {
-                base.options.autoPlay = 5000;
+                base.options.autoPlay = 800;
             }
             base.play();
 
@@ -1452,6 +1452,7 @@ if (typeof Object.create !== "function") {
     $.fn.owlCarousel.options = {
 
         items : 5,
+        loop:true,
         itemsCustom : false,
         itemsDesktop : [1199, 4],
         itemsDesktopSmall : [979, 3],
@@ -1461,12 +1462,13 @@ if (typeof Object.create !== "function") {
         singleItem : false,
         itemsScaleUp : false,
 
-        slideSpeed : 200,
+        slideSpeed : 100,
         paginationSpeed : 800,
-        rewindSpeed : 1000,
+        rewindSpeed : 500,
 
-        autoPlay : false,
+        autoPlay : true,
         stopOnHover : false,
+        
 
         navigation : false,
         navigationText : ["prev", "next"],
