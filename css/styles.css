@@ -2,6 +2,11 @@
 
 //@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
 //@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+@font-face {
+    	font-family: Apple;
+	src: url(../fonts/Bapple.ttf);
+	}
+
 
 * {
 	margin: 0;
