@@ -857,8 +857,7 @@ if (typeof Object.create !== "function") {
                 return $(e.target).is('input, textarea, select, option');
             });
         },
-
-        gestures : function () {
+      gestures : function () {
             /*jslint unparam: true*/
             var base = this,
                 locals = {
@@ -1464,7 +1463,7 @@ if (typeof Object.create !== "function") {
 
         slideSpeed : 100,
         paginationSpeed : 800,
-        rewindSpeed : 500,
+        rewindSpeed : 1,
 
         autoPlay : true,
         stopOnHover : false,
@@ -1494,9 +1493,9 @@ if (typeof Object.create !== "function") {
         jsonPath : false,
         jsonSuccess : false,
 
-        dragBeforeAnimFinish : true,
-        mouseDrag : true,
-        touchDrag : true,
+        dragBeforeAnimFinish : false,
+        mouseDrag : false,
+        touchDrag : false,
 
         addClassActive : false,
         transitionStyle : false,
